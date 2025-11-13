@@ -56,4 +56,4 @@ interface Ifriends {
 
 const friendd:Ifriends = ['s','d','d'];
 
-console.log(...friendd )
+console.log(friendd)
