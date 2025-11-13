@@ -57,4 +57,4 @@ const student2 = {
 
 const result =addStudenToCourse(student1)
 
-console.log(result,student2)
+console.log(result)
