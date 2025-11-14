@@ -1,14 +1,18 @@
 // set of fixed string leteral ek jaigai rakhe 
 
-// type UserRoles  = 'Admin'| 'Editor'| 'Viewer';
-
+// // type UserRoles  = 'Admin'| 'Editor'| 'Viewer';
+// enum UserRoles {
+//     Admin='Admin',
+//     Editor='Editor',
+//     Viewer='Viewr'
+// }
 // const canEdit = (role:UserRoles)=>{
-//     if(role ==='Admin'|| role==='Editor'){
+//     if(role ===UserRoles.Admin|| role===UserRoles.Editor){
 //         return true
 //     }
 //     else return false;
 // }
-// console.log(canEdit('Admin'))
+// console.log(canEdit(UserRoles.Admin))
 
 
 
@@ -16,20 +20,16 @@
 
 
 
-enum UserRoles {
-    Admin='Admin',
-    Editor='Editor',
-    Viewer='Viewr'
-}
 
 
 
-// type UserRoles  = 'Admin'| 'Editor'| 'Viewer';
 
-const canEdit = (role:UserRoles)=>{
-    if(role ===UserRoles.Admin|| role===UserRoles.Editor){
-        return true
-    }
-    else return false;
-}
-console.log(canEdit(UserRoles.Admin))
+// // type UserRoles  = 'Admin'| 'Editor'| 'Viewer';
+
+// const canEditt = (role:UserRoles)=>{
+//     if(role ===UserRoles.Admin|| role===UserRoles.Editor){
+//         return true
+//     }
+//     else return false;
+// }
+ 

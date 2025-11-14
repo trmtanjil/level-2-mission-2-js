@@ -30,4 +30,4 @@ const student3 ={
 
 const resultt =addStudenToCours(student3)
 
-console.log(result,student2,student3)
+// console.log(result,student2,student3)
