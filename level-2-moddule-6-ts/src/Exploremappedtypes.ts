@@ -42,3 +42,4 @@ const area1 :Area<{height:string ;width:boolean}>={
     height:'122',
     width:false,
 }
+console.log(area1)
