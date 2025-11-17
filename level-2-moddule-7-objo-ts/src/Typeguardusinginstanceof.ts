@@ -38,7 +38,7 @@ const isStudent = (user:Person)=>{
     return user instanceof Student; // true false
 }
 
-const isTeacherr= (user:Person){
+const isTeacherr= (user:Person)=>{
     return user instanceof Teacher;
 }
 
