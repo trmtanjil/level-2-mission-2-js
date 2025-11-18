@@ -28,3 +28,4 @@ const tanjilAccount = new BankAccount(2212,'tanjil',10)
 // tanjilAccount.userBalance =1000;//only acches 
 tanjilAccount.addBalance(1222) 
 console.log(tanjilAccount)
+console.log(tanjilAccount)
