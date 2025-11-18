@@ -16,7 +16,7 @@ class BankAccount{
 }
 class studenAccount extends BankAccount{
     test(){
-        this.
+        this.addBalance
     }
 }
 
